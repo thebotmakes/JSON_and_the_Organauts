@@ -3,7 +3,7 @@ import time
 import rtmidi
 from papirus import PapirusTextPos
 
-owm = OWM('44612535339ec837f25ff4b09b033791')  # You MUST provide a valid API key
+owm = OWM('XXXXYOURAPICODEXXXXXXX')  # You MUST provide a valid API key
 mgr = owm.weather_manager()
 
 text = PapirusTextPos()
